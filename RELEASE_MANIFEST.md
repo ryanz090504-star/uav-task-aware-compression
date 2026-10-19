@@ -9,7 +9,7 @@ Detector/original allocator remain withheld. The sanitized NPZ/JSON candidate an
 | .github/workflows/tests.yml | Lightweight public installation/unit/demo CI; no real data or checkpoint |
 | .gitignore | Public release metadata, instructions, policy or dependency declaration |
 | CHANGELOG.md | Public release metadata, instructions, policy or dependency declaration |
-| CITATION.cff | CFF 1.2.0 software citation; collective attribution pending author confirmation |
+| CITATION.cff | CFF 1.2.0 software citation; confirmed public author Ryan Zhang; public release date deferred |
 | CLAIMS.md | Single authoritative frozen claim definitions; byte-identical |
 | configs/risk_aware_v0.1.0.json | Portable/frozen protocol configuration; unchanged |
 | configs/visdrone_person.yaml | Portable/frozen protocol configuration; unchanged |
@@ -34,6 +34,7 @@ Detector/original allocator remain withheld. The sanitized NPZ/JSON candidate an
 | pyproject.toml | Public release metadata, instructions, policy or dependency declaration |
 | README.md | Public release metadata, instructions, policy or dependency declaration |
 | RELEASE_MANIFEST.md | Public release metadata, instructions, policy or dependency declaration |
+| RELEASE_SIGNOFF.md | Confirmed author identity, explicit rights-holder authorization and withheld-material policy |
 | RELEASE_NOTES_v0.1.0.md | Public release metadata, instructions, policy or dependency declaration |
 | requirements-cpu-lock.txt | Public release metadata, instructions, policy or dependency declaration |
 | requirements-cpu.txt | Public release metadata, instructions, policy or dependency declaration |

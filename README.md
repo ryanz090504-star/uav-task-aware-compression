@@ -66,4 +66,4 @@ Acquire VisDrone separately. Images, labels, annotations, crops and GT-containin
 
 ## Citation and license
 
-Use [CITATION.cff](CITATION.cff) for the project title/version and collective contributor attribution; no paper, individual author list or DOI is invented. Cite VisDrone and external work as listed in [third-party notices](THIRD_PARTY_NOTICES.md). [LICENSE](LICENSE) is the standard GNU AGPL v3 text, subject to final first-party ownership/integration review. It does not grant rights over external data or models. [Licensing audit](LICENSE_AUDIT.md).
+Use [CITATION.cff](CITATION.cff) for the project title/version and the confirmed public author identity, Ryan Zhang; no paper or DOI is claimed. Cite VisDrone and external work as listed in [third-party notices](THIRD_PARTY_NOTICES.md). [LICENSE](LICENSE) is the standard GNU AGPL v3 text, subject to final first-party ownership/integration review. It does not grant rights over external data or models. [Licensing audit](LICENSE_AUDIT.md). [Release sign-off](RELEASE_SIGNOFF.md) records Ryan Zhang's explicit rights-holder authorization for AGPL-3.0 release of the retained first-party code.
