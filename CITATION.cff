@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this software and version when using this research code."
+type: software
+title: "UAV Human-Detection Task-Aware Compression"
+authors:
+  - name: "UAV Human-Detection Task-Aware Compression contributors"
+version: 0.1.0
+date-released: "2026-10-18"
+abstract: "Research software for proposal-guided JPEG tile allocation and learned allocation under encoded-byte budgets."

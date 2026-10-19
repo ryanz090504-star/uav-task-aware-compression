@@ -1,0 +1,5 @@
+path: data/VisDrone
+train: VisDrone2019-DET-train/images
+val: images/val
+names:
+  0: person

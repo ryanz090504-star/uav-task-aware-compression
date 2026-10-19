@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-task-aware-compression"
+version = "0.1.0"
+description = "Task-aware adaptive image compression for UAV human detection"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "Pillow>=9.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+yolo = ["ultralytics>=8.2"]
+learned = ["torch>=2.0", "ultralytics>=8.4.129"]
+plots = ["matplotlib>=3.7"]
+
+[project.scripts]
+uav-compress = "task_aware_compression.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

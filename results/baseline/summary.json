@@ -1,0 +1,685 @@
+{
+  "record_count": 9316,
+  "groups": {
+    "original": {
+      "recall": 0.735734,
+      "precision": 0.512859,
+      "mAP50": 0.659465,
+      "ap_small": 0.657222,
+      "small_recall": 0.737407,
+      "miss_rate": 0.264266,
+      "bits_per_pixel": 1.252123,
+      "compression_ratio": 20.523788,
+      "file_size_bytes": 148194.656934,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 0.0,
+      "decode_ms": 0.0,
+      "detection_ms": 196.985326,
+      "incremental_pipeline_ms": 196.985326,
+      "end_to_end_ms": 196.985326,
+      "fps": 5.329195
+    },
+    "q15": {
+      "recall": 0.592378,
+      "precision": 0.463523,
+      "mAP50": 0.511533,
+      "ap_small": 0.513988,
+      "small_recall": 0.59618,
+      "miss_rate": 0.407622,
+      "bits_per_pixel": 0.375793,
+      "compression_ratio": 68.213068,
+      "file_size_bytes": 44533.182482,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 10.621237,
+      "decode_ms": 7.139407,
+      "detection_ms": 142.295367,
+      "incremental_pipeline_ms": 160.056011,
+      "end_to_end_ms": 160.056011,
+      "fps": 6.347609
+    },
+    "q35": {
+      "recall": 0.690935,
+      "precision": 0.505898,
+      "mAP50": 0.606159,
+      "ap_small": 0.605031,
+      "small_recall": 0.69276,
+      "miss_rate": 0.309065,
+      "bits_per_pixel": 0.679081,
+      "compression_ratio": 38.182575,
+      "file_size_bytes": 80272.403285,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 11.575983,
+      "decode_ms": 7.548616,
+      "detection_ms": 142.295367,
+      "incremental_pipeline_ms": 161.419966,
+      "end_to_end_ms": 161.419966,
+      "fps": 6.295181
+    },
+    "q60": {
+      "recall": 0.68964,
+      "precision": 0.514087,
+      "mAP50": 0.612681,
+      "ap_small": 0.612351,
+      "small_recall": 0.691313,
+      "miss_rate": 0.31036,
+      "bits_per_pixel": 1.163548,
+      "compression_ratio": 22.076761,
+      "file_size_bytes": 137721.262774,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 13.049233,
+      "decode_ms": 8.355789,
+      "detection_ms": 142.295367,
+      "incremental_pipeline_ms": 163.700389,
+      "end_to_end_ms": 163.700389,
+      "fps": 6.206357
+    },
+    "q90": {
+      "recall": 0.731267,
+      "precision": 0.514498,
+      "mAP50": 0.653393,
+      "ap_small": 0.65115,
+      "small_recall": 0.73294,
+      "miss_rate": 0.268733,
+      "bits_per_pixel": 1.753216,
+      "compression_ratio": 14.671216,
+      "file_size_bytes": 207228.793796,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 13.953433,
+      "decode_ms": 8.662393,
+      "detection_ms": 142.295367,
+      "incremental_pipeline_ms": 164.911193,
+      "end_to_end_ms": 164.911193,
+      "fps": 6.159902
+    },
+    "risk_aware_adaptive_adaptive_bg5_fg75_t256": {
+      "recall": 0.579927,
+      "precision": 0.406364,
+      "mAP50": 0.476427,
+      "ap_small": 0.474792,
+      "small_recall": 0.581296,
+      "miss_rate": 0.420073,
+      "bits_per_pixel": 0.341875,
+      "compression_ratio": 77.094499,
+      "file_size_bytes": 39872.675182,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1623.068463,
+      "decode_ms": 6.989733,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1778.748466,
+      "end_to_end_ms": 1975.733792,
+      "fps": 0.838258
+    },
+    "paired_risk_aware_adaptive_adaptive_bg5_fg75_t256": {
+      "recall": 0.559231,
+      "precision": 0.42378,
+      "mAP50": 0.463473,
+      "ap_small": 0.46488,
+      "small_recall": 0.563033,
+      "miss_rate": 0.440769,
+      "bits_per_pixel": 0.34184,
+      "compression_ratio": 77.113062,
+      "file_size_bytes": 39884.687956,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 9.06298,
+      "decode_ms": 6.120031,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.873282,
+      "end_to_end_ms": 163.873282,
+      "fps": 6.216139
+    },
+    "risk_aware_adaptive_adaptive_bg8_fg82_t256": {
+      "recall": 0.622292,
+      "precision": 0.445879,
+      "mAP50": 0.520909,
+      "ap_small": 0.520715,
+      "small_recall": 0.624574,
+      "miss_rate": 0.377708,
+      "bits_per_pixel": 0.40829,
+      "compression_ratio": 64.017714,
+      "file_size_bytes": 47715.640511,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1629.162195,
+      "decode_ms": 6.638971,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1784.491437,
+      "end_to_end_ms": 1981.476762,
+      "fps": 0.84166
+    },
+    "paired_risk_aware_adaptive_adaptive_bg8_fg82_t256": {
+      "recall": 0.596118,
+      "precision": 0.464298,
+      "mAP50": 0.511961,
+      "ap_small": 0.513159,
+      "small_recall": 0.598399,
+      "miss_rate": 0.403882,
+      "bits_per_pixel": 0.408081,
+      "compression_ratio": 64.097944,
+      "file_size_bytes": 47654.417883,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 8.949681,
+      "decode_ms": 6.012319,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.65227,
+      "end_to_end_ms": 163.65227,
+      "fps": 6.228795
+    },
+    "human_roi_adaptive_bg5_fg75_t256": {
+      "recall": 0.565023,
+      "precision": 0.394465,
+      "mAP50": 0.465393,
+      "ap_small": 0.462757,
+      "small_recall": 0.567152,
+      "miss_rate": 0.434977,
+      "bits_per_pixel": 0.330608,
+      "compression_ratio": 79.240729,
+      "file_size_bytes": 38572.989051,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1644.962094,
+      "decode_ms": 6.763539,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1800.415903,
+      "end_to_end_ms": 1997.401229,
+      "fps": 0.837246
+    },
+    "paired_human_roi_adaptive_bg5_fg75_t256": {
+      "recall": 0.546356,
+      "precision": 0.417745,
+      "mAP50": 0.452109,
+      "ap_small": 0.454846,
+      "small_recall": 0.550918,
+      "miss_rate": 0.453644,
+      "bits_per_pixel": 0.330509,
+      "compression_ratio": 79.326518,
+      "file_size_bytes": 38569.355839,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 9.105448,
+      "decode_ms": 6.129879,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.925597,
+      "end_to_end_ms": 163.925597,
+      "fps": 6.215525
+    },
+    "human_roi_adaptive_bg8_fg82_t256": {
+      "recall": 0.611777,
+      "precision": 0.439151,
+      "mAP50": 0.509713,
+      "ap_small": 0.509228,
+      "small_recall": 0.613449,
+      "miss_rate": 0.388223,
+      "bits_per_pixel": 0.396916,
+      "compression_ratio": 65.529418,
+      "file_size_bytes": 46401.742701,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1648.12718,
+      "decode_ms": 6.726026,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1803.543477,
+      "end_to_end_ms": 2000.528803,
+      "fps": 0.837746
+    },
+    "paired_human_roi_adaptive_bg8_fg82_t256": {
+      "recall": 0.59129,
+      "precision": 0.45873,
+      "mAP50": 0.505883,
+      "ap_small": 0.508236,
+      "small_recall": 0.594483,
+      "miss_rate": 0.40871,
+      "bits_per_pixel": 0.396592,
+      "compression_ratio": 65.618311,
+      "file_size_bytes": 46348.30292,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 8.984426,
+      "decode_ms": 5.983497,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.658193,
+      "end_to_end_ms": 163.658193,
+      "fps": 6.22813
+    },
+    "random_roi_adaptive_bg5_fg75_t256": {
+      "recall": 0.520638,
+      "precision": 0.383217,
+      "mAP50": 0.418044,
+      "ap_small": 0.417399,
+      "small_recall": 0.523223,
+      "miss_rate": 0.479362,
+      "bits_per_pixel": 0.399966,
+      "compression_ratio": 70.123102,
+      "file_size_bytes": 46066.541971,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1691.881753,
+      "decode_ms": 6.620033,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1847.192057,
+      "end_to_end_ms": 2044.177383,
+      "fps": 0.818148
+    },
+    "paired_random_roi_adaptive_bg5_fg75_t256": {
+      "recall": 0.580746,
+      "precision": 0.441132,
+      "mAP50": 0.491255,
+      "ap_small": 0.49306,
+      "small_recall": 0.58394,
+      "miss_rate": 0.419254,
+      "bits_per_pixel": 0.400055,
+      "compression_ratio": 70.187447,
+      "file_size_bytes": 46095.711679,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 9.033157,
+      "decode_ms": 6.110202,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.833628,
+      "end_to_end_ms": 163.833628,
+      "fps": 6.220081
+    },
+    "random_roi_adaptive_bg8_fg82_t256": {
+      "recall": 0.584189,
+      "precision": 0.425912,
+      "mAP50": 0.486723,
+      "ap_small": 0.486267,
+      "small_recall": 0.58647,
+      "miss_rate": 0.415811,
+      "bits_per_pixel": 0.466732,
+      "compression_ratio": 58.877381,
+      "file_size_bytes": 53948.00365,
+      "candidate_detection_ms": 196.985326,
+      "encode_ms": 1704.008976,
+      "decode_ms": 6.712723,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 1859.411969,
+      "end_to_end_ms": 2056.397295,
+      "fps": 0.816168
+    },
+    "paired_random_roi_adaptive_bg8_fg82_t256": {
+      "recall": 0.617636,
+      "precision": 0.478118,
+      "mAP50": 0.535806,
+      "ap_small": 0.536066,
+      "small_recall": 0.619309,
+      "miss_rate": 0.382364,
+      "bits_per_pixel": 0.466445,
+      "compression_ratio": 58.936118,
+      "file_size_bytes": 53915.985401,
+      "candidate_detection_ms": 0.0,
+      "encode_ms": 8.983556,
+      "decode_ms": 6.029548,
+      "detection_ms": 148.69027,
+      "incremental_pipeline_ms": 163.703375,
+      "end_to_end_ms": 163.703375,
+      "fps": 6.228232
+    }
+  },
+  "paired_comparison": {
+    "adaptive_recall": 0.580641,
+    "uniform_recall": 0.581896,
+    "adaptive_ap_small": 0.478526,
+    "uniform_ap_small": 0.495041,
+    "adaptive_small_recall": 0.582694,
+    "uniform_small_recall": 0.585014,
+    "adaptive_file_size": 45429.6,
+    "uniform_file_size": 45411.41
+  },
+  "paired_rate_matching": {
+    "human_roi_adaptive_bg5_fg75_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.019524,
+      "median_absolute_size_error_fraction": 0.017205,
+      "p95_absolute_size_error_fraction": 0.046816,
+      "max_absolute_size_error_fraction": 0.058829,
+      "meets_strict_rate_match_threshold": true
+    },
+    "human_roi_adaptive_bg8_fg82_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.018324,
+      "median_absolute_size_error_fraction": 0.013391,
+      "p95_absolute_size_error_fraction": 0.049093,
+      "max_absolute_size_error_fraction": 0.067882,
+      "meets_strict_rate_match_threshold": true
+    },
+    "random_roi_adaptive_bg5_fg75_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.018744,
+      "median_absolute_size_error_fraction": 0.01598,
+      "p95_absolute_size_error_fraction": 0.045532,
+      "max_absolute_size_error_fraction": 0.0677,
+      "meets_strict_rate_match_threshold": true
+    },
+    "random_roi_adaptive_bg8_fg82_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.017039,
+      "median_absolute_size_error_fraction": 0.010968,
+      "p95_absolute_size_error_fraction": 0.051333,
+      "max_absolute_size_error_fraction": 0.069956,
+      "meets_strict_rate_match_threshold": false
+    },
+    "risk_aware_adaptive_adaptive_bg5_fg75_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.020402,
+      "median_absolute_size_error_fraction": 0.018064,
+      "p95_absolute_size_error_fraction": 0.048833,
+      "max_absolute_size_error_fraction": 0.061711,
+      "meets_strict_rate_match_threshold": true
+    },
+    "risk_aware_adaptive_adaptive_bg8_fg82_t256": {
+      "n": 548,
+      "mean_absolute_size_error_fraction": 0.018371,
+      "median_absolute_size_error_fraction": 0.013218,
+      "p95_absolute_size_error_fraction": 0.049541,
+      "max_absolute_size_error_fraction": 0.059876,
+      "meets_strict_rate_match_threshold": true
+    }
+  },
+  "paired_strata": {
+    "risk_aware_adaptive_adaptive_bg5_fg75_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": 0.017999,
+          "mean_bpp_delta": 0.000144
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": -0.002685
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": 0.142857,
+          "mean_bpp_delta": -0.001097
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": 0.018975,
+          "mean_bpp_delta": 3.3e-05
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.333333,
+          "mean_bpp_delta": 0.000387
+        }
+      }
+    },
+    "risk_aware_adaptive_adaptive_bg8_fg82_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": 0.0286,
+          "mean_bpp_delta": 8.4e-05
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": -0.066667,
+          "mean_bpp_delta": 0.005407
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": 0.035714,
+          "mean_bpp_delta": -0.000748
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": 0.026318,
+          "mean_bpp_delta": 0.000198
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": 0.002063
+        }
+      }
+    },
+    "human_roi_adaptive_bg5_fg75_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": 0.016819,
+          "mean_bpp_delta": 0.000107
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": 0.000874
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": 0.107143,
+          "mean_bpp_delta": -0.001032
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": 0.016017,
+          "mean_bpp_delta": 0.000123
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.5,
+          "mean_bpp_delta": -0.004278
+        }
+      }
+    },
+    "human_roi_adaptive_bg8_fg82_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": 0.019705,
+          "mean_bpp_delta": 0.000317
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": 0.066667,
+          "mean_bpp_delta": 0.003633
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": -0.002965
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": 0.019682,
+          "mean_bpp_delta": 0.000348
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.166667,
+          "mean_bpp_delta": -0.00396
+        }
+      }
+    },
+    "random_roi_adaptive_bg5_fg75_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": -0.059614,
+          "mean_bpp_delta": -2.6e-05
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": -0.066667,
+          "mean_bpp_delta": -0.000742
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": -0.071429,
+          "mean_bpp_delta": -0.001713
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": -0.060439,
+          "mean_bpp_delta": -7.8e-05
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": -0.002017
+        }
+      }
+    },
+    "random_roi_adaptive_bg8_fg82_t256": {
+      "target_count": {
+        "3+": {
+          "n": 519,
+          "mean_recall_delta": -0.033389,
+          "mean_bpp_delta": 0.000429
+        },
+        "1": {
+          "n": 15,
+          "mean_recall_delta": -0.066667,
+          "mean_bpp_delta": -0.003774
+        },
+        "2": {
+          "n": 14,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": -0.00063
+        }
+      },
+      "mean_target_area": {
+        "small<=1.8%": {
+          "n": 545,
+          "mean_recall_delta": -0.033631,
+          "mean_bpp_delta": 0.000243
+        },
+        "large>1.8%": {
+          "n": 3,
+          "mean_recall_delta": 0.0,
+          "mean_bpp_delta": 0.008197
+        }
+      }
+    }
+  },
+  "dataset": {
+    "images": "data/VisDrone/images/val",
+    "labels": "data/VisDrone/labels/val",
+    "metadata_dir": "data\\VisDrone\\metadata\\val",
+    "person_class": 0,
+    "oracle_importance": false,
+    "research_methods": true,
+    "adaptive_tile_size": 256,
+    "tile_workers": 8,
+    "include_hevc": false,
+    "uniform_qualities": [
+      15,
+      35,
+      60,
+      90
+    ],
+    "pairing_qualities": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "detection_batch_size": 8
+  },
+  "comparison_methods": [
+    "uniform",
+    "random_roi",
+    "human_roi",
+    "risk_aware_adaptive"
+  ]
+}

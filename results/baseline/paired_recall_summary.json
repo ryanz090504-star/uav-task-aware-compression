@@ -1,0 +1,14 @@
+{
+  "setting": "risk_aware_adaptive_adaptive_bg8_fg82_t256",
+  "n": 548,
+  "aggregation": "arithmetic mean of paired image-level recall differences",
+  "delta_recall": 0.026174015150906685,
+  "ci95": [
+    0.01722861803986741,
+    0.03511941226194596
+  ],
+  "uncertainty": "normal approximation: mean +/- 1.96 * sample standard deviation / sqrt(n)",
+  "source_records_sha256": "8c424482c06baabc71f28e18c4bd35f1a687192dbe308d09271c4f457fa9d9e6",
+  "source_records_included": false,
+  "note": "Aggregate of existing saved results; no inference or new experiment. Per-image records withheld under v0.1.0 scope."
+}

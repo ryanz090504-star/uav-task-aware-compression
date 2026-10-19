@@ -1,0 +1,29 @@
+name: Public release checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CPU test dependencies and package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install .
+      - name: Public imports and complete unit suite
+        run: |
+          python -c "import task_aware_compression; import task_aware_compression.learned_allocation"
+          python -m unittest discover -s tests -v
+      - name: Synthetic smoke test (no dataset or detector)
+        run: |
+          uav-compress --help
+          python -m task_aware_compression.cli demo --detector heuristic --samples 2 --output "$RUNNER_TEMP/synthetic-demo"
+          python scripts/export_allocator_release.py --help

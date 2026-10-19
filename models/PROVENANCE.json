@@ -1,0 +1,32 @@
+{
+  "status": "v0.1.0 frozen candidate: detector/original allocator withheld; sanitized allocator candidate external to Git, pending distribution review",
+  "detector": {
+    "source_relative_path": "models/visdrone_yolov8n_1280_b18_s17_best.pt",
+    "sha256": "263cfd00bbd54283ad6982d79b04e7f9306d3d63c82a3264f500fb81be25426a",
+    "bytes": 6327402,
+    "included": false,
+    "reason": "Withheld by v0.1.0 policy; licensing/lineage unresolved and private local metadata confirmed",
+    "recorded_training": "seed 17, 1280-resolution continuation; exact full initialization lineage remains to be verified",
+    "evidence": "MODEL_PROVENANCE.md",
+    "archive_training_history": "tmp/s17_results_final.csv (not distributed)",
+    "archive_training_script": "scripts/train_visdrone_gpu.py (not distributed)"
+  },
+  "allocator": {
+    "source_relative_path": "outputs/learned_allocation_v2_balanced/rate_allocator.pt",
+    "sha256": "e28024b48c26d378f3378d40d24ef266f68a4f61ea37ae452e977b721a90bf45",
+    "bytes": 20463,
+    "included": false,
+    "reason": "Original metadata-rich checkpoint remains withheld; inference state has been exported and verified in a separate sanitized release candidate.",
+    "frozen_design": "results/learned_v2/frozen_design.json",
+    "sanitized_candidate": {
+      "method_version": "learned-allocation-v2.truncated_6sigma.v0.1.0",
+      "tensor_file": "allocator-v2-v0.1.0.npz",
+      "tensor_sha256": "5089346d903808f21433aa991009680aa5b643f2239fb2892f25ce30aa105f91",
+      "specification_file": "allocator-v2-v0.1.0.json",
+      "specification_sha256": "24bc8d558f2142346d5d98c6609aa57de4dd8dc43e43f49ff128dd3ce4e2c8e6",
+      "included_in_git": false,
+      "original_state_and_outputs_identical": true,
+      "distribution_status": "Prepared locally; final model/dataset redistribution review pending"
+    }
+  }
+}

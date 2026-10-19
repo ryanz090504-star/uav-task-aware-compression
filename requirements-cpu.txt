@@ -1,0 +1,11 @@
+# CPU experiment environment
+numpy==2.5.2
+Pillow==12.3.0
+pandas==3.0.5
+matplotlib==3.11.1
+PyYAML==6.0.3
+tqdm==4.70.0
+opencv-python==5.0.0.93
+torch==2.13.0
+torchvision==0.28.0
+ultralytics==8.4.129

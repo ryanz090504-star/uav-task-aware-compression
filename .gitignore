@@ -1,0 +1,79 @@
+# Environments, caches, build products
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+# Private settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+*.pem
+*.key
+credentials*
+secrets*
+# Data, internal archives, and generated runs
+data/
+datasets/
+handoff*/
+tmp/
+temp/
+runs*/
+outputs/
+logs/
+tensorboard/
+third_party/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.exe
+*.dll
+*.pyd
+*.cache
+*.partial.*
+# Models are blocked until explicitly reviewed
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+# Raw heads and generated media
+*.npz
+*.npy
+*.tac
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.docx
+*.pdf
+# Editor and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+# Curated numerical evidence under results/ is intentionally eligible.
+# Raw supplementary evidence remains private and external
+results/learned_v2/detections.jsonl
+results/learned_v2/tune/detections.jsonl
+importance-public-assets/
+
+# v0.1.0: never publish raw annotation/detection outputs
+*.jsonl
+results/**/records.csv
+results/**/detections*
+annotations/
+labels/

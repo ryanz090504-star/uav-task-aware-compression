@@ -1,0 +1,82 @@
+{
+  "n": 32,
+  "n_sequences": 32,
+  "methods": {
+    "baseline": {
+      "micro": {
+        "targets": 690,
+        "recall": 0.6956521739130435,
+        "precision": 0.4892966360856269,
+        "mean_image_ap50": 0.48320631628520905
+      },
+      "dataset_ap50": 0.6656365505950541
+    },
+    "learned": {
+      "micro": {
+        "targets": 690,
+        "recall": 0.7304347826086957,
+        "precision": 0.4196502914238135,
+        "mean_image_ap50": 0.5302446200850095
+      },
+      "dataset_ap50": 0.6800553202855945
+    }
+  },
+  "learned_minus_baseline": {
+    "delta_micro_recall": {
+      "delta": 0.034782608695652174,
+      "ci95": [
+        0.016991843895962252,
+        0.054414454806312754
+      ]
+    },
+    "sequence_ci": {
+      "n_sequences": 32,
+      "ci95": [
+        0.016991843895962252,
+        0.054414454806312754
+      ]
+    },
+    "delta_micro_precision": -0.06964634466181341,
+    "size_error_median": 0.0015446088477911735,
+    "size_error_p95": 0.01957215491103694,
+    "size_error_max": 0.01995715718972857,
+    "within_2pct": 32,
+    "within_5pct": 32,
+    "within_2pct_sensitivity": {
+      "n": 32,
+      "delta_micro_recall": {
+        "delta": 0.034782608695652174,
+        "ci95": [
+          0.016991843895962252,
+          0.054414454806312754
+        ]
+      },
+      "sequence_ci": {
+        "n_sequences": 32,
+        "ci95": [
+          0.016991843895962252,
+          0.054414454806312754
+        ]
+      },
+      "delta_micro_precision": -0.06964634466181341
+    },
+    "within_5pct_sensitivity": {
+      "n": 32,
+      "delta_micro_recall": {
+        "delta": 0.034782608695652174,
+        "ci95": [
+          0.016991843895962252,
+          0.054414454806312754
+        ]
+      },
+      "sequence_ci": {
+        "n_sequences": 32,
+        "ci95": [
+          0.016991843895962252,
+          0.054414454806312754
+        ]
+      },
+      "delta_micro_precision": -0.06964634466181341
+    }
+  }
+}
